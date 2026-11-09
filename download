@@ -1,0 +1,9 @@
+# MNIST, downloaded by the notebook (section e.0)
+mnist.npz
+# Jupyter and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# operating system files
+.DS_Store
+Thumbs.db

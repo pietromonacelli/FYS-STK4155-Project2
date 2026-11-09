@@ -1,0 +1,9 @@
+From part f) of Code/Project2.ipynb (final run), as printed by the notebook.
+
+CLASSIFICATION, MNIST, 10000 test images (sorted by the test accuracy)
+model                                                test acc.    s.e.   param.  epochs  seconds
+FFNN [256], relu (our code)                             0.9806  0.0014   203530      49      366
+Scikit-Learn MLPClassifier [256]                        0.9790  0.0014   203530      49      299
+Scikit-Learn LogisticRegression (starter cell)          0.9257  0.0026     7850     511        -
+logistic regression (our code, no hidden layer)         0.9241  0.0026     7850      15        8
+guessing (most frequent digit)                          0.1135       -        0       0        0

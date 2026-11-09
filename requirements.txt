@@ -1,0 +1,7 @@
+# Packages for Code/Project2.ipynb (final run: Python 3.13.5, Matplotlib 3.10.0)
+numpy
+scikit-learn
+jax
+matplotlib
+seaborn
+jupyter
