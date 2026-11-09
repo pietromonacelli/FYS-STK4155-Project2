@@ -32,7 +32,7 @@ FYS-STK4155-Project2/
 
 ## Installation
 
-The final run used Python 3.13.5. Install the packages with
+The final run used Python 3.13.5, and `requirements.txt` pins the package versions of that run. Install them with
 
 ```
 git clone https://github.com/pietromonacelli/FYS-STK4155-Project2.git
@@ -51,7 +51,7 @@ and run all cells from the top (Kernel, Restart and Run All).
 
 * Run it from the `Code` folder: the notebook writes the figures to `Code/Figures` and downloads `mnist.npz` (11.5 MB) into `Code`, from the address given in the project text (section e.0, only the first time; it needs an internet connection).
 * Seeds: 2026 everywhere, except for the initial weights of the networks of the gradient checks (seed 1, section b.4) and the starter cell of the project text with `LogisticRegression` (`random_state=42`).
-* Run time: the notebook prints the time of every scan. On our machine the longest steps were the starter cell with Scikit-Learn's `LogisticRegression` (10 to 14 minutes in our runs) and the final MNIST models (366 s for our network, 299 s for `MLPClassifier`).
+* Run time: about 40 minutes for the whole notebook on our machine. The notebook prints the time of every scan; the longest steps were the starter cell with Scikit-Learn's `LogisticRegression` (10 to 14 minutes in our runs) and the final MNIST models (366 s for our network, 299 s for `MLPClassifier`).
 * `Project2.py` was exported with `jupyter nbconvert --to script Project2.ipynb`, to read the code as a Python file; to reproduce the results, run the notebook.
 
 ## The notebook and what it produces
